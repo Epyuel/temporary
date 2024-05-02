@@ -3,28 +3,28 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
+    icon: "/images/icon/TAM.svg",
     title: "Time & Attendance Management",
     description:
       "Say goodbye to manual attendance tracking and embrace efficient time management.",
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
+    icon: "/images/icon/LM.svg",
     title: "Leave Management",
     description:
       "Simplify leave requests and approvals for a stress-free absence management process.",
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
+    icon: "/images/icon/Payroll.svg",
     title: "Payroll Processing",
     description:
       "oneHR is your payroll wizard, effortlessly processing payments with the data it provides. With oneHR, you'll have all the info you need for smooth and accurate payroll.",
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
+    icon: "/images/icon/PM.svg",
     title: "Performance Management",
     description:
       "Elevate performance reviews and goal setting to drive employee success.",
@@ -45,14 +45,14 @@ const featuresData: Feature[] = [
   },
   {
     id: 7,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/TA.svg",
     title: "Talent Acquisition Solutions",
     description:
       "Say goodbye to traditional hiring methods and hello to a whole new world of efficiency and excitement. Let oneHR be your partner in crime as you hunt down the best candidates with style and flair.",
   },
   {
     id: 8,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/icon-01.svg",
     title: "Training Management and more...",
     description:
       "Empower your team with continuous learning and development opportunities.",
