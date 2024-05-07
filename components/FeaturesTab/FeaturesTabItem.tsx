@@ -14,22 +14,22 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             {title}
           </h2>
           <p className="mb-5">{desc1}</p>
-          {featureTab.lists.length&&
+          {featureTab.lists.length?
           <ul className="mb-5 list-none">
             {
               featureTab.lists.map((item:any[],key)=>{
                 const desc:string = item[0];
                 const icon:any = item[1];
-                console.log()
                 return (
                   <li key={key} className="flex items-center mb-2">
-                    {icon && icon}
+                    {icon?icon:''}
                     {desc}
                   </li>
                 )
               }) 
             }
           </ul>
+          :''
           }
           <p className="w-11/12">{desc2}</p>
         </div>

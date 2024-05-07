@@ -22,9 +22,11 @@ const BonusModules = () => {
               headerInfo={{
                 title: `BONUS MODULES `,
                 subtitle: `Bonus modules `,
-                description: `oneHR isn't just about managing HR tasks, it's about enriching your HR experience. 
-                Discover our bonus modules that bring a dash of excitement to everyday HR management. From celebrating team victories with Employee Recognition to fostering a culture of learning with our Mentorship Program, we've got it all. 
-                Dive into the world of oneHR and experience the joy of HR management!`,
+                description: `oneHR is more than a tool, it's your partner in navigating the HR landscape. 
+                Our additional modules bring a fresh perspective to daily HR tasks. We celebrate your team's achievements 
+                with our Employee Recognition feature, and cultivate a learning culture with Training Programs. Smooth transitions are ensured with Exit Management, 
+                while Self-Service Documents provide easy access to crucial files. Our Employee Engagement feature fosters a positive work environment, 
+                and Career Development opportunities pave the way for growth. With oneHR, you're not just managing HR tasks, you're creating an enriching HR experience.`,
               }}
             />
           </div>

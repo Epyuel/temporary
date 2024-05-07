@@ -31,14 +31,14 @@ const featuresData: Feature[] = [
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
+    icon: "/images/icon/EE.svg",
     title: "Employee Engagement Tools",
     description:
       "Foster a culture of engagement with interactive methods to boost morale and productivity.",
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/EXM.svg",
     title: "Exit Management",
     description:
       "Handle employee exits smoothly and professionally with structured processes in place.",
@@ -52,7 +52,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 8,
-    icon: "/images/icon/icon-01.svg",
+    icon: "/images/icon/TM.svg",
     title: "Training Management and more...",
     description:
       "Empower your team with continuous learning and development opportunities.",

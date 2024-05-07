@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* third-party libraries CSS */
+
+@font-face{
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype')
+}
 
 .testimonial-01 .swiper-pagination-bullet {
   @apply h-2.5 w-2.5 bg-stroke opacity-100;
@@ -128,4 +134,21 @@ pre {
 
 .custom-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Montserrat' !important;
+}
+
+.ant-btn,
+.MuiButton-root {
+    color: #ffe6a7ff !important;
+    background: #3f3d56ff !important;
+    transition: 500ms all;
+}
+
+.ant-btn:hover,
+.MuiButton-root:hover {
+    color: #3f3d56ff !important;
+    background: #ffe6a7ff !important;
 }

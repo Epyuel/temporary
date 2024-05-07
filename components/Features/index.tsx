@@ -41,8 +41,9 @@ const Feature = () => {
                 </span>
               </h2>
               <p>
-                Integrate with Ease! oneHR seamlessly connects with popular tool like excel, PDF 
-                and more to enhance your HR operations.
+                Integrate with Ease! oneHR seamlessly connects with existing systems to fetch live data from biometrics systems 
+                (biometric fingerprint attendance machine) and job boards platforms (to post job vacancies). 
+                For massive data upload, oneHR provides CSV import and API integrations capabilities. We are solid!
               </p>
               {/* <div>
                 <a
@@ -79,10 +80,10 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_right relative mx-auto hidden aspect-[788/526.5] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
+                src="/images/features/integration_light.png"
                 alt="About"
                 className="dark:hidden"
                 fill

@@ -29,33 +29,8 @@ const Hero = () => {
                 We're here to turn the mundane into the extraordinary, the complex into the simple, and the ordinary into the fun.
               </p>
               <p className="mt-5">
-                Attendance Management? We've got it covered. Leave Management? Consider it done. Payroll Management? It's as easy as a click. 
-                We've automated the processes, so you can focus on what truly matters - your people.
+                From basic to advanced and complex HR processes, we got it covered. We've automated the processes, so you can focus on what truly matters - your people.
               </p>
-
-              {/* <div className="mt-10">
-                <form onSubmit={handleSubmit}>
-                  <div className="flex flex-wrap gap-5">
-                    <input
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      type="text"
-                      placeholder="Enter your email address"
-                      className="rounded-full border border-stroke px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
-                    />
-                    <button
-                      aria-label="get started button"
-                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
-                    >
-                      Get Started
-                    </button>
-                  </div>
-                </form>
-
-                <p className="mt-5 text-black dark:text-white">
-                  Try for free no credit card required.
-                </p>
-              </div> */}
             </div>
 
             <div className="animate_right hidden md:w-1/2 lg:block">

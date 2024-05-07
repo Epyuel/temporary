@@ -8,7 +8,7 @@ const About = () => {
     <>
       {/* <!-- ===== About Start ===== --> */}
       <section id="about-us" className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
-        <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
+        <div className="mx-auto max-w-c-123 px-4 md:px-8 xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
               variants={{
@@ -26,10 +26,10 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[788/526.5] md:block md:w-1/2"
+              className="animate_left relative mx-auto hidden aspect-[988/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-light.jpg"
+                src="/images/about/about-light.svg"
                 alt="About"
                 className="dark:hidden rounded-[1rem]"
                 fill
@@ -85,36 +85,9 @@ const About = () => {
               </div>
               <div className="mb-10">
                 <p>
-                  At oneHR, we're more than just an HR platform. We're a partner, a mentor, and a friend. So come on in, and let's make HR management a joy, not a chore.
+                  oneHR is driven by business values that matter to you.
                 </p>
               </div>
-
-              {/* <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
-                    01
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    React 18, Next.js 13 and TypeScript
-                  </h3>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
-                </div>
-              </div>
-              <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
-                    02
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Fully Customizable
-                  </h3>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
-                </div>
-              </div> */}
             </motion.div>
           </div>
         </div>
